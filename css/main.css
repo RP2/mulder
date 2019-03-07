@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+body{
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    color: grey;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+    transition: .5s;
+    outline: 0;
+}
+
+a:hover{
+    color: orange;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+ul {
+    padding-left: 0;
+    padding-top: 1em;
+    padding-right: 1em;
+    margin: 0;
+}
+
+li {
+    padding-bottom: .5em;
+}
+
+.active {
+    color: orange;
+    transition: .5s;
+}
+
+.active:hover{
+    color: lightgrey;
+}
+
+.title{
+    position: absolute;
+    margin: 0;
+    padding: 1em;
+}
+
+.title h1{
+    margin: 0;
+}
+
+hr {
+    border-top: 1px dotted orange;
+}
+
+footer {
+    font-size: 1em;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer h6{
+    margin: 0;
+    padding: 1em;
+}
+
+/* Work page */
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbnail {
+    max-width: 25em;
+    padding: 1em;
+}
+
+.thumbnail img {
+    width: 100%;
+    cursor: pointer;
+}
+
+#project {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100vw;;
+}
+
+#close{
+    padding: 1em;
+    right: 0;
+}
+
+#close h2 {
+    margin: 0;
+    cursor: pointer;
+}
+
+#test{
+    width: 100vw;
+}
+
+#projectLeft{
+    padding: 1em;
+}
+
+#projectLeft img{
+    width: 100%;
+}
+
+#projectRight {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#projectDesc {
+    max-width: 50em;
+}
+
+#projectThumb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.thumbs{
+    max-width: 20vw;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.thumbs img{
+    width: 100%;
+}
+
+/* About page */
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraph{
+    max-width: 40em;
+    padding: 1em;
+}
+
+.paragraph p {
+    margin: 0;
+    line-height: 1.5em;
+}
+
+.aboutLink{
+    color: orange;
+    transition: .5s;
+}
+
+.aboutLink:hover{
+    color: lightgrey;
+}
+
+/* Contact Page */
+
+.contactP {
+    padding: 1em;
+}
+
+.contactP p {
+    margin: 0;
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 500px){
+    .enough{
+        position: relative;
+    }
+    #project{
+        flex-direction: column;
+    }
+    #projectLeft{
+        max-width: 100vw;
+    }
+    #projectRight{
+        max-width: 100vw;
+        padding: 1em;
+    }
+    #projectThumb{
+        justify-content: center;
+    }
+    .thumbs{
+        max-width: 50vw;
+    }
+    footer{
+        text-align: center;
+    }
+}
