@@ -34,6 +34,15 @@ li {
     padding-bottom: .5em;
 }
 
+#scrollNav{
+    position: fixed;
+    display: none;
+    transition: top .3s;
+    z-index: 1;
+    background-color: white;
+    width: 100vw;
+}
+
 .active {
     color: orange;
     transition: .5s;
@@ -55,6 +64,7 @@ li {
 
 hr {
     border-top: 1px dotted orange;
+    margin: 0;
 }
 
 footer {
@@ -110,7 +120,11 @@ footer h6{
 }
 
 #projectLeft{
-    padding: 1em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
 }
 
 #projectLeft img{
@@ -134,9 +148,13 @@ footer h6{
 }
 
 .thumbs{
-    max-width: 20vw;
-    padding: 1em;
-    cursor: pointer;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 2em;
+    height: 80vh;
+    width: 100vw;
 }
 
 .thumbs img{
@@ -191,6 +209,10 @@ footer h6{
     }
     #projectLeft{
         max-width: 100vw;
+        background-size: contain;
+    }
+    .thumbs{
+        background-size: contain;
     }
     #projectRight{
         max-width: 100vw;
@@ -198,9 +220,6 @@ footer h6{
     }
     #projectThumb{
         justify-content: center;
-    }
-    .thumbs{
-        max-width: 50vw;
     }
     footer{
         text-align: center;
