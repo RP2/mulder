@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("#work img").click(function(){
         $("#projectLeft").css('background-image', 'url(' + this.src + ')');
+        $("#close").fadeIn(200);
         info(this)
         $("#projectThumb img").click(function(){
             $("#projectLeft").css('background-image', 'url(' + this.src + ')');
@@ -12,6 +13,7 @@ $(document).ready(function(){
     $("#close h2").click(function(){
         $("#project").fadeOut(500);
         $("#work").animate({paddingTop: "0px"}, 1000);
+        $("#close").fadeOut(200);
     });
 });
 
@@ -181,9 +183,15 @@ function animate(){
 }
 
 $(window).scroll(function(){
+    let projectHeight = $("#project").height()+ $("nav").height(); 
     if($(window).scrollTop() > 300){
         $("#scrollNav").fadeIn(200);
     } if($(window).scrollTop() < 300) {
         $("#scrollNav").fadeOut(100)
+    }
+    if ($(window).scrollTop() >= projectHeight){
+        $("#close").fadeOut(200);
+    } else if ($("#project").css("display") === "flex") {
+        $("#close").fadeIn(200);
     }
 })

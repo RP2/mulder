@@ -3,7 +3,7 @@
 body{
     font-family: 'Cabin', sans-serif;
     font-size: 16px;
-    color: grey;
+    color: #808080;
 }
 
 a{
@@ -14,7 +14,7 @@ a{
 }
 
 a:hover{
-    color: orange;
+    color: #fe4600;
 }
 
 nav {
@@ -44,7 +44,7 @@ li {
 }
 
 .active {
-    color: orange;
+    color: #fe4600;
     transition: .5s;
 }
 
@@ -52,18 +52,30 @@ li {
     color: lightgrey;
 }
 
+.orangeBar{
+    background-color: #fe4600;
+    width: 1em;
+    height: 5.55em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .title{
     position: absolute;
     margin: 0;
-    padding: 1em;
+    padding-left: 2em;
+    padding-top: 3.7em;
+    width: 10em;
+    left: 0;
 }
 
-.title h1{
-    margin: 0;
+.title img{
+    width: 100%;
 }
 
 hr {
-    border-top: 1px dotted orange;
+    border-top: 1px dotted #808080;
     margin: 0;
 }
 
@@ -107,7 +119,9 @@ footer h6{
 
 #close{
     padding: 1em;
-    right: 0;
+    position: fixed;
+    display: none;
+    z-index: 1;
 }
 
 #close h2 {
@@ -122,13 +136,11 @@ footer h6{
 #projectLeft{
     background-attachment: fixed;
     background-position: center;
+    background-position-y: 5.5em;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 80vh;
-}
-
-#projectLeft img{
-    width: 100%;
+    height: 90vh;
+    width: 100vw;
 }
 
 #projectRight {
@@ -150,15 +162,11 @@ footer h6{
 .thumbs{
     background-attachment: fixed;
     background-position: center;
+    background-position-y: 5.5em;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 2em;
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
-}
-
-.thumbs img{
-    width: 100%;
 }
 
 /* About page */
@@ -181,7 +189,7 @@ footer h6{
 }
 
 .aboutLink{
-    color: orange;
+    color: #fe4600;
     transition: .5s;
 }
 
@@ -209,10 +217,14 @@ footer h6{
     }
     #projectLeft{
         max-width: 100vw;
-        background-size: contain;
+        background-attachment: inherit;
+        background-position-y: center;
+        height: 50vh;
     }
     .thumbs{
-        background-size: contain;
+        background-attachment: inherit;
+        background-position-y: 0;
+        height: 50vh;
     }
     #projectRight{
         max-width: 100vw;
