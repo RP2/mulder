@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1');
 
 body{
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Gothic A1', sans-serif;
     font-size: 16px;
     color: #808080;
 }
@@ -40,6 +40,10 @@ hr {
     border-top: 1px dotted #808080;
     margin: 0;
     margin-left: 5em;
+}
+
+p {
+    line-height: 1.5em;
 }
 
 #scrollNav{
@@ -155,7 +159,14 @@ footer h6{
 }
 
 #projectDesc {
-    max-width: 50em;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    min-width: 100vw;
+    max-height: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #projectThumb{
@@ -164,13 +175,29 @@ footer h6{
     justify-content: center;
 }
 
+#projectType {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#projectType h3{
+    margin: 0;
+}
+
+#projectDescription {
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 50em;
+}
+
 .thumbs{
     background-attachment: fixed;
     background-position: center;
-    background-position-y: 5.5em;
+    background-position-y: 2em;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 90vh;
+    height: 80vh;
     width: 100vw;
 }
 
@@ -217,6 +244,10 @@ footer h6{
     line-height: 1.5em;
 }
 
+footer{
+    z-index: -1;
+}
+
 @media screen and (max-width: 500px){
     hr{
         margin-left: 0;
@@ -260,6 +291,9 @@ footer h6{
     }
     #projectThumb{
         justify-content: center;
+    }
+    #projectDesc {
+        max-height: initial;
     }
     #contact{
         padding-left: 0;

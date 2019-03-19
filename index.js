@@ -194,4 +194,9 @@ $(window).scroll(function(){
     } else if ($("#project").css("display") === "flex") {
         $("#close").fadeIn(200);
     }
+    if ($(window).scrollTop() >= $("#work").offset().top + $("#projectThumb").outerHeight()){
+        $("#projectDesc").fadeOut();
+    } else {
+        $("#projectDesc").fadeIn()
+    }
 })
