@@ -89,9 +89,9 @@ p {
 footer {
     font-size: 1em;
     text-align: right;
-    position: fixed;
     bottom: 0;
     width: 100vw;
+    z-index: -1;
 }
 
 footer h6{
@@ -108,9 +108,14 @@ footer h6{
     padding-top: 2em;
 }
 
+.thumbnail:hover{
+    transform: scale(1.1);
+}
+
 .thumbnail {
     max-width: 15em;
     padding: 1em;
+    transition: .2s;
 }
 
 .thumbnail img {
@@ -200,17 +205,18 @@ footer h6{
 }
 
 /* About page */
-
-#about{
+about {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    padding-top: 1em;   
+    margin-left: 5em;
 }
 
 .paragraph{
     max-width: 40em;
-    padding: 1em;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-left: 0;
 }
 
 .paragraph p {
@@ -227,8 +233,18 @@ footer h6{
     color: lightgrey;
 }
 
-/* Contact Page */
+#clients {
+    max-width: 40em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
+#clients img{
+    height: 100%;
+    max-height: 75vh;
+}
+
+/* Contact Page */
 #contact{
     padding-left: 4em;
 }
@@ -242,8 +258,13 @@ footer h6{
     line-height: 1.5em;
 }
 
-footer{
-    z-index: -1;
+#map{
+    margin-left: 4em;
+    padding: 1em
+}
+
+#map img{
+    width: 100%;
 }
 
 @media screen and (max-width: 500px){
@@ -300,7 +321,21 @@ footer{
         max-height: initial;
     }
     #contact{
-        padding-left: 0;
+        padding-left: 1em;
+    }
+    about {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 1em;
+    }
+    .paragraph {
+        padding-right: 0;
+        padding-left: 1em;
+    }
+    #map{
+        margin-left: 1em;
+        padding: 1em
     }
     footer{
         text-align: center;
