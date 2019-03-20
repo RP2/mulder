@@ -43,7 +43,7 @@ hr {
 }
 
 p {
-    line-height: 1.5em;
+    line-height: 1.25em;
 }
 
 #scrollNav{
@@ -145,7 +145,7 @@ footer h6{
 #projectLeft{
     background-attachment: fixed;
     background-position: center;
-    background-position-y: 5.5em;
+    background-position-y: 8em;
     background-repeat: no-repeat;
     background-size: contain;
     height: 90vh;
@@ -154,19 +154,12 @@ footer h6{
 
 #projectRight {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    margin-left: 5em;
 }
 
 #projectDesc {
-    position: fixed;
-    bottom: 0;
-    background: white;
-    min-width: 100vw;
-    max-height: 10em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 #projectThumb{
@@ -177,11 +170,16 @@ footer h6{
 
 #projectType {
     display: flex;
-    flex-direction: column;
-    padding: 1em;
+    flex-direction: row;
+    padding-top: 1em;
+    min-width: 15em;
 }
 
-#projectType h3{
+#projectType h3 {
+    padding-right: .5em;
+}
+
+#projectType h3, #projectType p{
     margin: 0;
 }
 
@@ -194,10 +192,10 @@ footer h6{
 .thumbs{
     background-attachment: fixed;
     background-position: center;
-    background-position-y: 2em;
+    background-position-y: 5em;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -217,7 +215,7 @@ footer h6{
 
 .paragraph p {
     margin: 0;
-    line-height: 1.5em;
+    line-height: 1.25em;
 }
 
 .aboutLink{
@@ -288,6 +286,12 @@ footer{
     #projectRight{
         max-width: 100vw;
         padding: 1em;
+        margin-left: 0;
+    }
+    #projectType{
+        min-width: 5em;
+        padding-left: 1em;
+        flex-direction: column;
     }
     #projectThumb{
         justify-content: center;
