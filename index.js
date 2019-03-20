@@ -12,7 +12,7 @@ $(document).ready(function(){
     //close animation
     $("#close h2").click(function(){
         $("#project").fadeOut(500);
-        $("#work").animate({paddingTop: "0px"}, 1000);
+        $("#work").animate({marginTop: "0px"}, 1000);
         $("#close").fadeOut(200);
     });
 });
@@ -169,9 +169,9 @@ function findHeight(){
 function setHeight(projectHeight){
     let VH = $(window).height();
         if (projectHeight < VH){
-            $("#work").animate({paddingTop: VH + "px"}, 1000);
+            $("#work").animate({marginTop: VH + "px"}, 1000);
         } else if (projectHeight > VH) {
-            $("#work").animate({paddingTop: projectHeight + "px"}, 1000);
+            $("#work").animate({marginTop: projectHeight + "px"}, 1000);
         };
     animate();
 };
