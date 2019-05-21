@@ -47,7 +47,7 @@ function info(funkName){
         break;
         case "EOC_family_3":
         $("#projectType p").text("Package Design");
-        $("#projectDescription p").text("Attune Bars combine natural ingredients and pro biotics into one delicious snack. Since the category is packaged with competitors, Attune Bars wanted to standout. So we designed the line's package label utilizing bright colors and natural illustrations to remind consumers of the bars' healthy benefits.");
+        $("#projectDescription p").text("A delicious blend of premium 100% Arabica coffee at a medium roast. Outstandingly smooth, yet full-bodied with a complex finish. It may be “Original” but it’s certainly not boring. Made with 100% Arabica coffee, these were objectives given for this project. We use strong flavor differentials and appetite appeal, while communicating how the Keurig system works with its flowing liquid motions and swirls.");
         break;
         case "SpiceIsland_Organic":
         $("#projectType p").text("100% Organic Package Design");
@@ -65,7 +65,7 @@ function info(funkName){
         break;
         case "DG_yo_6oz_all7":
         $("#projectType p").text("Package Design");
-        $("#projectDescription p").text("Targeting adults and specifically the Latina market, Cacique enlisted us to help them design the package for their newly developed health beverage line, Drink Up! We chose bright tones and natural looking illustrations to remind consumers of the healthy benefits that the product line offers.");
+        $("#projectDescription p").text("For decades, Darigold has been providing customers and consumers around the world with high quality, affordable nutrition. They introduced this new yogurt line to simplify ingredients, enhance nutrition, and extend product shelf life. We created improved packaging that communicated its heritage yet appeal to a new health conscious consumer with clean packaging where the ingredient is the hero.");
         $("#projectThumb")
         .append(`<div class="thumbs" style="background-image:url('./images/thumb7/more/DG_shred_all_three_option2.jpg')">`)
         break;
@@ -101,7 +101,7 @@ function info(funkName){
         break;
         case "Torani_small_Syrup":
         $("#projectType p").text("Small Bottle Syrups Package Design");
-        $("#projectDescription p").text("Tornai developed a line of small bottled syrups to extend its brand further than its competitors. We helped them design the package labels for the line, revitalizing the brand equity by intensifying its famous castle graphic.");
+        $("#projectDescription p").text("Toranai developed a line of small bottled syrups to extend its brand further than its competitors. We helped them design the package labels for the line, revitalizing the brand equity by intensifying its famous castle graphic.");
         $("#projectThumb")
         .append(`<div class="thumbs" style="background-image:url('./images/thumb14/more/Torani_giftbox.jpg')">`)
         .append(`<div class="thumbs" style="background-image:url('./images/thumb14/more/Torani_Kids art.jpg')">`)
