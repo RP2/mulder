@@ -41,23 +41,27 @@ function info(funkName){
         .append(`<div class="thumbs" style="background-image:url('./images/thumb1/more/Hardees_packaging.jpg')">`)
         .append(`<div class="thumbs" style="background-image:url('./images/thumb1/more/hardees_Rest_brand3.jpg')">`)
         break;
-        case "Red_Burrito":
+        case "GreenBurrito":
         $("#projectType p").text("Identity Design");
-        $("#projectDescription p").text("A Hardee's and Carl's Jr. co-branded restaurant, Red Burrito serves up a quick and affordable Mexican food. We were tasked with creating a logo that not only compliments the Hardee's and Carl's Jr. brand, but one that speaks to the authentic heritage of the food and the California-sized menu.");
+        $("#projectDescription p").text("A Hardee's and Carl's Jr. co-branded restaurant, Green Burrito & Red Burrito serve up quick and affordable Mexican food. We were tasked with creating a logo that not only compliments the Hardee's and Carl's Jr. brand, but one that speaks to the authentic heritage of the food and the California-sized menu.");
+        $("#projectThumb")
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb2/more/Red_Burrito.jpg')">`);
         break;
         case "EOC_family_3":
         $("#projectType p").text("Package Design");
-        $("#projectDescription p").text("A delicious blend of premium 100% Arabica coffee at a medium roast. Outstandingly smooth, yet full-bodied with a complex finish. It may be “Original” but it’s certainly not boring. Made with 100% Arabica coffee, these were objectives given for this project. We use strong flavor differentials and appetite appeal, while communicating how the Keurig system works with its flowing liquid motions and swirls.");
+        $("#projectDescription p").text("A delicious blend of premium 100% Arabica coffee at a medium roast. Outstandingly smooth, yet full-bodied with a complex finish. It may be “Original” but it’s certainly not boring. These were objectives given for this project. We use strong flavor differentials and appetite appeal, while communicating how the Keurig system works with its flowing liquid motions and swirls.");
+        $("#projectThumb")
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb3/more/EOC_bfast_w_wrap3.jpg')">`);
         break;
         case "SpiceIsland_Organic":
         $("#projectType p").text("100% Organic Package Design");
-        $("#projectDescription p").text("The Spice islands brand represents the idea of searching the world for the best and most unique spices. Now with a certified organic line, we created its package design to communicate this important message as well as reminding customers of the pleasures of far away places.");
+        $("#projectDescription p").text("The Spice islands brand represents the idea of searching the world for the best and most unique spices. Now with a certified organic line, we created its package design to communicate this important message as well as reminding customers of the product's origin");
         $("#projectThumb")
         .append(`<div class="thumbs" style="background-image:url('./images/thumb4/more/SpiceIslands_grinder.jpg')">`)
         break;
-        case "Weber_Grill":
+        case "BellasBakeryChocChip":
         $("#projectType p").text("Package Design");
-        $("#projectDescription p").text("Weber wished for their product line to stand out in the crowded spice category .We helped them create a package design that would convey the simplicity of their product yet give them a strong shelf presence. It's exactly what happened and Weber moved up the ranks.");
+        $("#projectDescription p").text("Bella has been selling her wildly successful cookies at fairs and farmers market with great success. When it was time mass produce her product and offer the product wholesale, Bella came to Mulder Design and requested a package that stayed true to her original objectives of wholesome fresh small batch cookies.");
         break;
         case "Ben_Jerrys":
         $("#projectType p").text("Package Design");
@@ -83,21 +87,25 @@ function info(funkName){
         $("#projectType p").text("Package Design");
         $("#projectDescription p").text("Created from a distillery in Nevada, this brand of moonshine borrows infamous ingredients and is infused with deep flavors - and deep roots. With moonshining's past history with NASCAR, fast cars outran the law with abandon. This became the inspiration for the flavorful recipe: sour apple, apple pie, watermelon, and private reserve flavors which finish off its clear taste.");
         break;
-        case "FosterFarms_SS":
-        $("#projectType p").text("Savory Servings Package Design");
-        $("#projectDescription p").text("Foster Farms features a high-quality line of seasoned fresh chicken called Savory Servings. While staying true to the brand's equity for its package design, we also used gourmet-inspired photography to showcase the premium product. These elements speak to the consumer in the freshest way possible.");
+        case "Signature_entrees":
+        $("#projectType p").text("Signature Entrees Package Design");
+        $("#projectDescription p").text("Foster Farms features a high-quality line of seasoned chicken called Signature Entries. While staying true to the brand's equity for its package design, we also used gourmet-inspired photography to showcase the premium product. These elements speak to the consumer in the freshest way possible.");
         break;
-        case "LaSalsa_logo":
+        case "WO_IC_combo_compfinal":
         $("#projectType p").text("Brand Design");
-        $("#projectDescription p").text("La Salsa is famous for its authentic, fresh Mexican food. When you get your order, the food tastes as if it was made just for you. The brand design we created for them captures this exact inviting feeling as well as the restaurant's positioning, that being a lively, social, and flamboyant environment .They credit us with helping them increase their sales by 20% upon launch of the redesign.");
-        $("#projectThumb")
-        .append(`<div class="thumbs" style="background-image:url('./images/thumb12/more/LaSalsa_restaurant.jpg')">`)
+        $("#projectDescription p").text("Time-honored preparation and the freshest ingredients are hallmarks of Wild Oats Gelato. This assortment of Italian gelato is dense and creamy, handcrafted with premium ingredients for rich, vibrant flavors. We designed a package that was economical to produce yet has big appetite appeal and a sense of its Italian heritage while it's clear and bold colors makes shopping for your favorite flavor easy.");
         break;
-        case "Tones_Vanilla_Extract":
+        case "KF_LOGO_RGB_2019":
         $("#projectType p").text("Vanilla Extract Package Design");
-        $("#projectDescription p").text("The production of pure vanilla extract is not only an art but also a quest. Equatorial countries seek to develope their own extracts of this  worldly commodity, creating a competitive category. This face alone inspired us to use warm colors and create a unique design of a mariner's map on its label.");
+        $("#projectDescription p").text("The Kinderfeets product line encourages children to live an active, adventurous and responsible healthy lifestyle with these high quality wooden toys. The brand we created communicates this through its save and protective red shield that doubles als a heart. A symbol of a child playing and has a foot on the ground to reinforce the meaning of the brand name. With our help in brand guidance in just a few years Kinderfeets grew from a local brand to a global brand.");
+        $("#projectDescription p").append("<a target='_blank' rel='noopener noreferrer' href='./images/thumb13/KF_Catalog_2019May16.pdf'> Kinderfeets pdf</a>")
         $("#projectThumb")
-        .append(`<div class="thumbs" style="background-image:url('./images/thumb13/more/Tones_Spices.jpg')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb13/more/KF_box3D_NEW2.jpg')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb13/more/Kinderboard_box3D_NEW_4C.jpg')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb13/more/Pram_box3D_4C.jpg')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb13/more/Toybox_box3D_4C.jpg')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb13/more/TT_box3D_NEW2.jpg')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb13/more/logo.gif')">`);
         break;
         case "Torani_small_Syrup":
         $("#projectType p").text("Small Bottle Syrups Package Design");
@@ -128,9 +136,14 @@ function info(funkName){
         $("#projectType p").text("Package Design");
         $("#projectDescription p").text("Sauza approached us to help them enter the beverage mix category. Already positioned as a quality tequila brand, we helped them design a label for their new concept - a bottle of tequila and margarita mix, all in one. We stayed true to the brand's equity while also taking it to a new level from a design standpoint with the margarita mix product addition.");
         break;
-        case "Cacique_DrinkUp":
-        $("#projectType p").text("Drink Up! Package Design");
-        $("#projectDescription p").text("Targeting adults and specifically the Latina market, Cacique enlisted us to help them design the package for their newly developed health beverage line, Drink Up! We chose bright tones and natural looking illustrations to remind consumers of the healthy benefits that the product line offers.");
+        case "CAC_Yo_group":
+        $("#projectType p").text("Yonique Package Design");
+        $("#projectDescription p").text("Targeting young adults and specifically the Latina market, Cacique enlisted us to help them design the package for their newly developed dairy based health beverage line. We chose bright tones and natural looking illustrations to remind consumers of the healthy benefits that the product line offers.");
+        $("#projectThumb")
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb19/more/Cac_roundcheese_revised2.png')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb19/more/Rikitos_render2.jpg')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb19/more/Cacique_DrinkUp.jpg')">`);
+        
         break;
         case "Vessence":
         $("#projectType p").text("Identity and Brand Design");
