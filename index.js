@@ -99,7 +99,7 @@ function info(funkName){
         $("#projectDescription p").text("Time-honored preparation and the freshest ingredients are hallmarks of Wild Oats Gelato. This assortment of Italian gelato is dense and creamy, handcrafted with premium ingredients for rich, vibrant flavors. We designed a package that was economical to produce yet has big appetite appeal and a sense of its Italian heritage while it's clear and bold colors makes shopping for your favorite flavor easy.");
         break;
         case "KF_LOGO_RGB_2019":
-        $("#type").text("Package & Product Design");
+        $("#type").text("Branding & Packaging Design");
         $("#projectDescription p").text("The Kinderfeets product line encourages children to live an active, adventurous and responsible healthy lifestyle with these high quality wooden toys. The brand we created communicates this through its save and protective red shield that doubles als a heart. A symbol of a child playing and has a foot on the ground to reinforce the meaning of the brand name. With our help in brand guidance in just a few years Kinderfeets grew from a local brand to a global brand.");
         $("#projectDescription p").append("<a target='_blank' rel='noopener noreferrer' href='./images/thumb13/KF_Catalog_2019May16.pdf'> Kinderfeets pdf</a>")
         $("#projectThumb")
