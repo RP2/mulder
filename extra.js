@@ -1,4 +1,12 @@
 $(window).ready(function(){
+    extra();
+});
+
+$(window).resize(function(){
+    extra();
+});
+
+function extra(){
     let body = $("nav").outerHeight() + $("about").outerHeight();
     let view = $(window).height();
     if (body > view){
@@ -12,5 +20,5 @@ $(window).ready(function(){
         $("#contactFoot").css("position", "relative")
     } else {
         $("#contactFoot").css("position", "absolute")
-    }
-});
+    };
+}
