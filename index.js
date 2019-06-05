@@ -14,6 +14,9 @@ $(document).ready(function(){
         $("#project").fadeOut(500);
         $("#work").animate({marginTop: "0px"}, 1000);
         $("#close").fadeOut(200);
+        $("#projectThumb").empty()
+        $("#type").empty()
+        $("#projectDescription p").empty()
     });
 });
 
@@ -205,11 +208,11 @@ $(window).scroll(function(){
     } if($(window).scrollTop() < 300) {
         $("#scrollNav").fadeOut(100)
     }
-    if ($(window).scrollTop() >= projectHeight){
-        $("#close").fadeOut(200);
-    } else if ($("#project").css("display") === "flex") {
-        $("#close").fadeIn(200);
-    }
+    // if ($(window).scrollTop() >= projectHeight){
+    //     // $("#close").fadeOut(200);
+    // } else if ($("#project").css("display") === "flex") {
+    //     // $("#close").fadeIn(200);
+    // }
     // if ($(window).scrollTop() >= $("#work").offset().top + $("#projectThumb").outerHeight()){
     //     $("#projectDesc").fadeOut();
     // } else {
