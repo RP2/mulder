@@ -181,12 +181,9 @@ footer h6{
     min-width: 15em;
 }
 
-#projectType h3 {
-    padding-right: .5em;
-}
-
-#projectType h3, #projectType p{
+ #projectType p{
     margin: 0;
+    padding-right: .5em;
 }
 
 #projectDescription {
