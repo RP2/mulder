@@ -77,11 +77,14 @@ function info(funkName){
         $("#projectType p").text("Package Design");
         $("#projectDescription p").text("Living up to their reputation, Niman Ranch launched a line of healthy beef and pork trays for the consumer market. We created a see-through style package design to promote the fresh product as well as a prominent, classic label. The design set a new standard for the brand's equity, as they're now a leader in the meat tray category.");
         $("#projectThumb")
-        .append(`<div class="thumbs" style="background-image:url('./images/thumb8/more/NR_fresh_meat.jpg')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb8/more/NR_fresh_meat.jpg')">`);
         break;
-        case "Mama_Sita":
+        case "bloom3":
         $("#projectType p").text("Package Design");
-        $("#projectDescription p").text("Philipine cooking is famous for mixing sauces and experimentation. We used the native culture and tastes to inspire this successful label design, resulting in brand elevation and product domination on shelves worldwide.");
+        $("#projectDescription p").text("BloomFresh is a result of over a hundred years of produce experience. Mulder Design was contracted to create a premium, healthy and inviting platform for potentially one hundred SKU line. We opted for a very similar design across all items for brand awareness and shelf recognition. We were able to do this as the vegetables and fruit are the differentiator between each other, not the label. BloomFresh sales have about doubled since the introduction of the new design.");
+        $("#projectThumb")
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb9/more/bloom1.jpg')">`)
+        .append(`<div class="thumbs" style="background-image:url('./images/thumb9/more/bloom2.jpg')">`);
         break;
         case "Moonshine_GroupShot_HR":
         $("#projectType p").text("Package Design");
@@ -212,4 +215,12 @@ $(window).scroll(function(){
     // } else {
     //     $("#projectDesc").fadeIn()
     // }
+})
+
+$(window).resize(function(){
+    let projectHeight = $("#project").height(); 
+    let VH = $(window).height();
+    if (projectHeight > VH) {
+        $("#work").stop().animate({marginTop: projectHeight + "px"}, 500);
+    };
 })
