@@ -58,13 +58,13 @@ function info(funkName){
         break;
         case "SpiceIsland_Organic":
         $("#type").text("Package Design");
-        $("#projectDescription p").text("The Spice islands brand represents the idea of searching the world for the best and most unique spices. Now with a certified organic line, we created its package design to communicate this important message as well as reminding customers of the product's origin");
+        $("#projectDescription p").text("The Spice Islands brand represents the idea of searching the world for the best and most unique spices. Now with a certified organic line, we created its package design to communicate this important message as well as reminding customers of the product's origin");
         $("#projectThumb")
         .append(`<div class="thumbs" style="background-image:url('./images/thumb4/more/SpiceIslands_grinder.jpg')">`)
         break;
         case "BellasBakeryChocChip":
         $("#type").text("Package Design");
-        $("#projectDescription p").text("Bella has been selling her wildly successful cookies at fairs and farmers market with great success. When it was time mass produce her product and offer the product wholesale, Bella came to Mulder Design and requested a package that stayed true to her original objectives of wholesome fresh small batch cookies.");
+        $("#projectDescription p").text("Bella has been selling her wildly successful cookies at fairs and farmers markets with great success. When it was time to mass produce her product and offer the product wholesale, Bella came to Mulder Design and requested a package that stayed true to her original objectives of wholesome fresh small batch cookies.");
         break;
         case "Ben_Jerrys":
         $("#type").text("Package Design");
@@ -78,7 +78,7 @@ function info(funkName){
         break;
         case "Niman_Salami":
         $("#type").text("Package Design");
-        $("#projectDescription p").text("Living up to their reputation, Niman Ranch launched a line of healthy beef and pork trays for the consumer market. We created a see-through style package design to promote the fresh product as well as a prominent, classic label. The design set a new standard for the brand's equity, as they're now a leader in the meat tray category.");
+        $("#projectDescription p").text("Living up to their reputation, Niman Ranch launched a line of healthy beef and pork trays for the consumer market. We created a see-through style package design to promote the fresh product as well as a prominent, legible label. The design set a new standard for the brand's equity, as they're now a leader in the meat tray category.");
         $("#projectThumb")
         .append(`<div class="thumbs" style="background-image:url('./images/thumb8/more/NR_fresh_meat.jpg')">`);
         break;
@@ -94,16 +94,16 @@ function info(funkName){
         $("#projectDescription p").text("Created from a distillery in Nevada, this brand of moonshine borrows infamous ingredients and is infused with deep flavors - and deep roots. With moonshining's past history with NASCAR, fast cars outran the law with abandon. This became the inspiration for the flavorful recipe: sour apple, apple pie, watermelon, and private reserve flavors which finish off its clear taste.");
         break;
         case "Signature_entrees":
-        $("#type").text("Signature Entrees Package Design");
-        $("#projectDescription p").text("Foster Farms features a high-quality line of seasoned chicken called Signature Entries. While staying true to the brand's equity for its package design, we also used gourmet-inspired photography to showcase the premium product. These elements speak to the consumer in the freshest way possible.");
+        $("#type").text("Package Design");
+        $("#projectDescription p").text("Foster Farms features a high-quality line of seasoned chicken called Signature Entrees. While staying true to the brand's equity for its package design, we also used gourmet-inspired photography to showcase the premium product. These elements speak to the consumer in the freshest way possible.");
         break;
         case "WO_IC_combo_compfinal":
         $("#type").text("Brand Design");
-        $("#projectDescription p").text("Time-honored preparation and the freshest ingredients are hallmarks of Wild Oats Gelato. This assortment of Italian gelato is dense and creamy, handcrafted with premium ingredients for rich, vibrant flavors. We designed a package that was economical to produce yet has big appetite appeal and a sense of its Italian heritage while it's clear and bold colors makes shopping for your favorite flavor easy.");
+        $("#projectDescription p").text("Time-honored preparation and the freshest ingredients are hallmarks of Wild Oats Gelato. This assortment of Italian gelato is dense and creamy, handcrafted with premium ingredients for rich, vibrant flavors. We designed a package that is economical to produce yet has big appetite appeal and a sense of its Italian heritage while it's clear and bold colors makes shopping for your favorite flavor easy.");
         break;
         case "KF_LOGO_RGB_2019":
         $("#type").text("Branding & Packaging Design");
-        $("#projectDescription p").text("The Kinderfeets product line encourages children to live an active, adventurous and responsible healthy lifestyle with these high quality wooden toys. The brand we created communicates this through its save and protective red shield that doubles als a heart. A symbol of a child playing and has a foot on the ground to reinforce the meaning of the brand name. With our help in brand guidance in just a few years Kinderfeets grew from a local brand to a global brand.");
+        $("#projectDescription p").text("The Kinderfeets product line encourages children to live an active, adventurous and responsible healthy lifestyle with high quality wooden toys. The brand we created communicates this through its safe and protective red shield that doubles as a heart. A symbol of a child playing and has a foot on the ground to reinforce the meaning of the brand name. With our help in brand guidance in just a few years Kinderfeets grew from a local brand to a global brand.");
         $("#projectDescription p").append("<a target='_blank' rel='noopener noreferrer' href='./images/thumb13/KF_Catalog_2019May16.pdf'> Kinderfeets pdf</a>")
         $("#projectThumb")
         .append(`<div class="thumbs" style="background-image:url('./images/thumb13/more/KF_box3D_NEW2.jpg')">`)
@@ -136,7 +136,7 @@ function info(funkName){
         break;
         case "Citrona_new":
         $("#type").text("Package Design");
-        $("#projectDescription p").text("We were tasked with positioning Stolichnaya;s new product, Citrona, into the malt-beverage world. The result is a clean expression of the rugged brand and also represents the lemon-lime flavor of the product.");
+        $("#projectDescription p").text("We were tasked with positioning Stolichnaya;s new product, Citrona, into the malt-beverage world. The result is a clean expression of the rugged brand.");
         break;
         case "Sauza_Margarita":
         $("#type").text("Package Design");
@@ -153,7 +153,7 @@ function info(funkName){
         break;
         case "Vessence":
         $("#type").text("Identity & Brand Design");
-        $("#projectDescription p").text("Vessence Medical developed a line of effervescing tablets to assist in ingredient absorption for the consumer market. We were tasked with creating a unique design for its cylinder package that highlighted each formula's unique benefit. the result was a fresh and clean look-and-feel, accentuating the product's healthful promise.");
+        $("#projectDescription p").text("Vessence Medical developed a line of effervescing tablets to assist in ingredient absorption for the consumer market. We were tasked with creating a unique design for its cylinder package that highlighted each formula's unique benefit. The result was a fresh and clean look-and-feel, accentuating the product's healthful promise.");
         break;
     }
     // wait for images to load before finding height
