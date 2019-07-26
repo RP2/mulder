@@ -35,7 +35,7 @@ function info(funkName){
     switch (funkName.id) {
         case "Carls_logo":
         $("#type").text("Identity Design");
-        $("#projectDescription p").text("The current Carl's Jr. marketing compaign targeted to males, 'in your face,' sums up the brand appropriately. We took the brand's most famous equity icon, the smiling yellow star, and made it richer to reflect the brand's famouse food creations.");
+        $("#projectDescription p").text("The current Carl's Jr. marketing compaign targeted to males, 'in-your-face,' sums up the brand appropriately. We took the brand's most famous equity icon, the smiling yellow star, and made it richer to reflect the brand's famouse food creations.");
         $("#projectThumb")
         .append(`<div class="thumbs" style="background-image:url('./images/thumb1/more/Carls_Jr_packaging.jpg')">`)
         .append(`<div class="thumbs" style="background-image:url('./images/thumb1/more/carls_restaurant.jpg')">`)
@@ -136,7 +136,7 @@ function info(funkName){
         break;
         case "Citrona_new":
         $("#type").text("Package Design");
-        $("#projectDescription p").text("We were tasked with positioning Stolichnaya;s new product, Citrona, into the malt-beverage world. The result is a clean expression of the rugged brand.");
+        $("#projectDescription p").text("We were tasked with positioning Stolichnaya's new product, Citrona, into the malt-beverage world. The result is a clean expression of the rugged brand.");
         break;
         case "Sauza_Margarita":
         $("#type").text("Package Design");
