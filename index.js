@@ -115,7 +115,7 @@ function info(funkName){
         break;
         case "Torani_small_Syrup":
         $("#type").text("Package Design");
-        $("#projectDescription p").text("Toranai developed a line of small bottled syrups to extend its brand further than its competitors. We helped them design the package labels for the line, revitalizing the brand equity by intensifying its famous castle graphic.");
+        $("#projectDescription p").text("Torani developed a line of small bottled syrups to extend its brand further than its competitors. We helped them design the package labels for the line, revitalizing the brand equity by intensifying its famous castle graphic.");
         $("#projectThumb")
         .append(`<div class="thumbs" style="background-image:url('./images/thumb14/more/Torani_giftbox.jpg')">`)
         .append(`<div class="thumbs" style="background-image:url('./images/thumb14/more/Torani_Kids art.jpg')">`)
